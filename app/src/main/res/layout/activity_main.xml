@@ -28,9 +28,9 @@
         android:layout_below="@id/textView"
         android:text="Save" />
     <Button
-        android:id="@+id/buttonClear"
+        android:id="@+id/buttonShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clear" />
+        android:text="Show" />
 
 </LinearLayout>

@@ -43,15 +43,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 saveName();
-                displayName();
+
             }
         });
-        Button clear=findViewById(R.id.buttonClear);
-        clear.setOnClickListener(new View.OnClickListener() {
+        Button show=findViewById(R.id.buttonShow);
+        show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editor.clear();
-                editor.apply();
+                displayName();
+//                editor.clear();
+//                editor.apply();
             }
         });
     }
